@@ -24,7 +24,6 @@ export async function showGeneralData() {
 async function getWaitingCars() {
     try {
         const data = await getData()
-        console.log('Cars waiting for pit stop:\n');
         const waitingCars = data.cars.filter(
             car => car.status === 'waiting'
         )
@@ -38,6 +37,7 @@ async function getWaitingCars() {
 
 export async function showWaitingCars() {
     const waitingCars = await getWaitingCars()
+    console.log('Cars waiting for pit stop:');
     for (const car of waitingCars) {
         console.log(`- Car #${car.carNumber} | Driver: ${car.driverName}`); 
     }
@@ -50,7 +50,7 @@ export async function showWaitingCars() {
 
 export async function printRadioMessage() {
     const waitingCars = await getWaitingCars()
-    console.log(`Radio message to car #${waitingCars[0].carNumber}: "Box box box, ${waitingCars[0].driverName}, pit this lap!"\n`);
+    console.log(`\nRadio message to car #${waitingCars[0].carNumber}: "Box box box, ${waitingCars[0].driverName}, pit this lap!"\n`);
     
 }
 
