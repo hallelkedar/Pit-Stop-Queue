@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import { waitForDebugger } from "inspector";
 
 const APIURL = "https://server-for-test-week-13.onrender.com/api/race";
-const DATAPATH = "race.json";
+const DATAPATH = "data/race.json";
 
 async function loadServerData() {
   try {
@@ -27,7 +27,7 @@ async function saveToFile(obj) {
   }
 }
 
-async function getData() {
+export async function getData() {
     try {
     const data =  await fs.readFile(DATAPATH, 'utf-8')
     return JSON.parse(data)
