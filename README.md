@@ -1,6 +1,16 @@
 # Pit Stop Queue
 ## Fit stop queue manager, example of snapshot for the engineer.
 
+### The app helps the engineer with -
+- What race is it (name)
+- What is the lap number
+- How many cars are in the race (total)
+- How many cars has already finished - current round
+- Which cars are waiting to - 'Pit Stop'
+- Which car are next to enter the pit
+- Can we send a radio message to next car
+- What happend when we try searching car that doesn't exists in the race (error message) 
+
 ### === Project Structude ===
 ```
 library-api/
