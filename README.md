@@ -18,10 +18,10 @@ library-api/
 │
 ├── main.js
 ├── data/
+│   ├── race.json
 │   └── data.js
 |
 ├── services/
-│   ├── infoService.js
 │   └── raceService.js
 │
 ├── README.md
@@ -54,3 +54,15 @@ Next car to enter the pit:
 ```
 node main.js
 ```
+
+### Used functions:
+- loadServerData
+- saveToFile
+- getData
+- showGeneralData
+- getWaitingCars
+- showWaitingCars
+- printRadioMessage
+- searchCarByNumber(carNumber)
+- showSearchCarEx
+- generalMain

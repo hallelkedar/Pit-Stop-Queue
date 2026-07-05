@@ -1,0 +1,21 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "- What race is it (name) - What is the lap number - How many cars are in the race (total) - How many cars has already finished - current round - Which cars are waiting to - 'Pit Stop' - Which car are next to enter the pit - Can we send a radio message to next car - What happend when we try searching car that doesn't exists in the race (error message)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallelkedar/Pit-Stop-Queue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/hallelkedar/Pit-Stop-Queue/issues"
+  },
+  "homepage": "https://github.com/hallelkedar/Pit-Stop-Queue#readme"
+}
