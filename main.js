@@ -1,5 +1,3 @@
-
-import { log } from "console";
 import { loadServerData } from "./data/data.js";
 import { showGeneralData, printRadioMessage, showWaitingCars, showSearchCarEx } from "./service/raceService.js";
 
