@@ -13,7 +13,7 @@
 
 ### === Project Structude ===
 ```
-library-api/
+Pit-Stop-Queue/
 │
 │
 ├── main.js
