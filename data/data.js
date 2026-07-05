@@ -5,7 +5,7 @@ import { waitForDebugger } from "inspector";
 const APIURL = "https://server-for-test-week-13.onrender.com/api/race";
 const DATAPATH = "data/race.json";
 
-async function loadServerData() {
+export async function loadServerData() {
   try {
     const res = await fetch(APIURL);
     if (!res.ok) throw new Error(res.status);
